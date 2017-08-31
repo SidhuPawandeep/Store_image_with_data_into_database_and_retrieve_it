@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.logindemo2.activities.SignUpAcitvity"
+    android:background="@drawable/background_image">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/bg"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="@color/colorWhite"/>
+    <LinearLayout
+        android:id="@+id/firstLayoutLoginPage"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/businessman"
+            android:layout_gravity="center"
+            android:id="@+id/imageSignIV"
+            android:layout_marginTop="25dp"
+            />
+
+
+        <EditText
+            android:id="@+id/SignUpNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginTop="@dimen/topMargin2"
+            />
+        <EditText
+            android:id="@+id/SignUpPhoneET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Phone"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginTop="@dimen/topMargin2"
+            />
+        <EditText
+        android:id="@+id/SignEmailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEmail"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="@dimen/leftMargin"
+        android:layout_marginRight="@dimen/rightMargin"
+        android:layout_marginTop="@dimen/topMargin2"
+        />
+        <EditText
+            android:id="@+id/signUpPasswordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Hintpassword"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:inputType="textPassword"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginTop="@dimen/topMargin2"
+
+            />
+
+        <Button
+            android:id="@+id/signUpBT"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginTop="@dimen/topMargin"
+            android:background="@drawable/bg"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/editTextSize" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.logindemo2.activities.SplashActivity"
+    android:background="@drawable/background_image">
+    <TextView
+        android:id="@+id/splashTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/welcome"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size_for_welcome"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"/>
+
+</LinearLayout>

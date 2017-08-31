@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Login Demo</string>
+    <string name="welcome">Welcome!</string>
+    <string name="hintEmail">user@xyz.com</string>
+    <string name="Hintpassword">*******</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="Login">Login</string>
+    <string name="yetNotLogin">Not Account Yet? Create One</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Your Name</string>
+    <string name="Phone">Phone</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="update">Update</string>
+    <string name="title_activity_success_login">SuccessLogin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

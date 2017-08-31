@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_for_welcome">65dp</dimen>
+    <dimen name="editTextSize">35dp</dimen>
+    <dimen name="leftMargin">45dp</dimen>
+    <dimen name="rightMargin">10dp</dimen>
+    <dimen name="topMargin">20dp</dimen>
+    <dimen name="topMargin2">10dp</dimen>
+    <dimen name="text_size">25dp</dimen>
+</resources>

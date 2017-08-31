@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.logindemo2.fragments.EditProfileFragment"
+    android:background="@drawable/background_image">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Detail"
+                android:textSize="22dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/firstLayoutUpdatePage"
+                    android:layout_width="368dp"
+                    android:layout_height="495dp"
+                    android:orientation="vertical"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/businessman"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageUpdateIV"
+                    android:layout_marginTop="25dp"
+                    />
+                    <EditText
+                        android:id="@+id/UpdateUserNameET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_size"
+                        android:inputType="text"
+                        android:layout_marginLeft="@dimen/leftMargin"
+                        android:layout_marginRight="@dimen/rightMargin"
+                        android:layout_marginTop="@dimen/topMargin2"
+                        />
+                    <EditText
+                        android:id="@+id/updatePhoneET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/Phone"
+                        android:textColorHint="@color/colorWhite"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_size"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:layout_marginLeft="@dimen/leftMargin"
+                        android:layout_marginRight="@dimen/rightMargin"
+                        android:layout_marginTop="@dimen/topMargin2"
+                        />
+                    <EditText
+                        android:id="@+id/UpdateEmailET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_size"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginLeft="@dimen/leftMargin"
+                        android:layout_marginRight="@dimen/rightMargin"
+                        android:layout_marginTop="@dimen/topMargin2"
+                        />
+                    <EditText
+                        android:id="@+id/UpdatePasswordET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorWhite"
+                        android:textColor="@color/colorWhite"
+                        android:inputType="textPassword"
+                        android:textSize="@dimen/text_size"
+                        android:layout_marginLeft="@dimen/leftMargin"
+                        android:layout_marginRight="@dimen/rightMargin"
+                        android:layout_marginTop="@dimen/topMargin2"
+
+                        />
+
+
+        <Button
+            android:id="@+id/updateBT"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="@string/update"
+            android:background="@drawable/bg"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginTop="@dimen/topMargin2"/>
+                </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</FrameLayout>
